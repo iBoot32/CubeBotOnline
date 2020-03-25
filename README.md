@@ -3,7 +3,11 @@
 A simple PHP script for running my CubeBot algorithm on a web server.
 Also includes a special version of CubeBot2.0.exe which is designed to run with this PHP script. Any other version of CubeBot will probably not work, so make sure to use the included binary.
 
-CubeBotOnline accepts a scramble inside the page's URL, for example: `cubebotonline.zzz/index.php?scramble=B+F+R'+D'+L2+U'` (where each move is separated by `+` signs as indicated)
+CubeBotOnline accepts a scramble inside the page's URL, for example:
+
+`cubebotonline.zzz/index.php?scramble=B+F+R'+D'+L2+U'` 
+
+(where each move is separated by `+` signs as indicated)
 
 
 # SETUP
