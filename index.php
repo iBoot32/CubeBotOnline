@@ -41,6 +41,11 @@
       <h1>CubeBot2.0 by iBoot32</h1>
       <h2>An advanced Rubik's Cube solving algorithm written in C#</h2>
       <hr>
+	  <p>
+            <?php
+               echo $answer;
+           ?>
+         </p>
       <br><br><br><br>
       <h2>Solution computed in exactly <?php  echo $time[0]; ?> milliseconds!</h2>
       <h3>Solutions to your cube:</h3>
