@@ -31,7 +31,7 @@
 		 $scramble = $_GET['scramble'];
          if ($scramble != null)
          {
-         	$answer = shell_exec("C:/Users/Tom/Desktop/CubeBot2.0.exe scr {$scramble}");
+         	$answer = shell_exec("CubeBot2.0.exe scr {$scramble}");
          	$lines = explode("<EOL>", $answer); //separate by line
          	$fix = explode("g:", $lines[0]); //get first line of solution
          	$time = explode(" MILL", explode("EXACTLY ", $answer)[1]); //get rest of solution
